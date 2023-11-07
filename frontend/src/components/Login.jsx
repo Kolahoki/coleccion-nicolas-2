@@ -26,7 +26,7 @@ function Login() {
             dispatch(
               loginActions.login({
                 name: response.data.nombre,
-                rol: response.data.rol,
+                rol: response.data.rol
               })
             );
             navigate("/home");
